@@ -44,6 +44,7 @@ function validate() {
       quantity : document.getElementById("quantity").valueAsNumber,
       location : document.querySelectorAll('[name=location]:checked')[0].value,
     };
+    modalBody.className += " modalformsucces";
     modalBody.textContent="Félicitation "+formulaire.first+" "+formulaire.last+" pour votre inscription";
   }
   else{
