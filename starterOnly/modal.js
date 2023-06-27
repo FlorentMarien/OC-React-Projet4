@@ -26,6 +26,7 @@ function launchModal() {
 function closeModal() {
   modalbg.style.display = "none";
 }
+
 // Verif formulaire
 function validate() {
   if(document.getElementById("first").value.length >= 2 &&
