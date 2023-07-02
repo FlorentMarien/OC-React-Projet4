@@ -104,7 +104,7 @@ function validate() {
       for(let x=0;x<6;x++){
         //document.querySelectorAll('[class=checkbox-icon]')[x].style.backgroundColor="red";
       }
-      document.getElementById("errorText-location").textContent="Vous n'avez rien cocher";
+      document.getElementById("errorText-location").textContent="Vous n'avez rien saisi";
       document.getElementById("errorText-location").style.display="block";
     }else{
       for(let x=0;x<6;x++){
